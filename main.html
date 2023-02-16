@@ -8,7 +8,31 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
+
+	
+    <form method="post">
+	<div>
+	<label for="name">Name*</label>
+	<input type="text" id="name" required>
+	</div>	
+   
+	<div>
+		<label for="portfolio">Portfolio</label>
+     	<input type="url" id="portfolio" required>		
+	</div>
+	<div>
+	<label for="favColor">FavColor</label>
+  <select name="favColor" id="favColor" >
+  <option value="blue">Blue</option>
+  <option value="orange">Orange</option>
+  <option value="red">red</option>
+</select>
+	</div>
+	<div>
+		<p>Likeness</p>
+		<input type="range" min="1" max="100">
+	</div>
+</form><script type="text/javascript" src="./script.js">
 </script>
 
 </body>
